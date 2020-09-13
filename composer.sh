@@ -1,0 +1,1 @@
+ docker container exec -it batoi-php  composer update
