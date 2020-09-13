@@ -2,7 +2,7 @@
 
  * Estructura de directoris bàsica
     * config
-    * services
+    * helpers
     * templates
     * public
     * tests
