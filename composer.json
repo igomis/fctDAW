@@ -17,7 +17,11 @@
         }
     },
     "scripts": {
-        "test": "phpunit tests"
+        "test": "phpunit tests",
+        "test1": "phpunit Test --filter testUcParagraph",
+        "test2": "phpunit Test --filter testGreetings",
+        "test3": "phpunit Test --filter testValDate",
+        "test4": "phpunit Test --filter testPaintLine"
     },
     "require-dev": {
         "phpunit/phpunit": "^9"
