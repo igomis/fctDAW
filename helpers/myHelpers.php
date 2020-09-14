@@ -12,3 +12,24 @@ function loadWhoops()
     $whoops->register();
     return $whoops;
 }
+
+function ucParagraph(String $text):String
+{
+    return $text;
+}
+
+function greetins():String
+{
+    return '';
+}
+
+function valDate():String
+{
+    return '';
+}
+
+function paintLine(Array $linea):String
+{
+    return '';
+}
+

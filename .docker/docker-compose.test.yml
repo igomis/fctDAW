@@ -13,7 +13,9 @@ services:
       - php
   # PHP Service
   php:
-    build: config/php
+    build:
+      context: .
+      dockerfile: Dockerfile
     working_dir: /var/www/sites
     volumes:
       - ${BASE_DIRECTORY}:/var/www/sites

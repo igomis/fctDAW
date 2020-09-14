@@ -40,7 +40,7 @@
   * En el directori config crea un fitxer config.php
   * Crea les variables **$grup, $aula, $centre , $descripcio i $webCentre** i dona-li valors descriptius de la classe. El text ha d'estar escrit en minúscules. La descripció ha de tindre, al meyns, dos frases.
   * Substitueix el text 'Cover your page.' pel grup i aula entre parèntesi. Totes dos han de aparèixer amb la primera lletra en majúscula.
-  * Crea un funció de nom **ucparagraph($text)** que torne el text transformant en majúscules les primeres lletres de cada frase del text. 
+  * Crea un funció de nom **ucParagraph($text)** que torne el text transformant en majúscules les primeres lletres de cada frase del text. 
   * Posa la descripció transformada amb la funció anterior com a descripció en la pàgina substituint al text que comença en Cover is a one-page
   * Posa el nom del centre al botó amb un enllaç a la $webCentre 
   
@@ -48,13 +48,15 @@
   
   *  Cal modificar-la per que el menú porte a les altres pàgines.  
   
-  * Crea una funció de nom **greetings()** que salude a la forma valenciana. Bon dia en les hores que hi ha claror i bona nit quan ja és fosc. Anem a suposar que l'hora d'eixida del sol és les 7:00 per a tot l'any l'hora de posta de sol és:
+  * Crea una funció de nom **greetings()** que salude a la forma valenciana. Bon dia en les hores que hi ha claror i bona nit quan ja és fosc. 
+  Anem a suposar que l'hora d'eixida del sol és les 7:00 per a tot l'any l'hora de posta de sol és:
   
   		* 22:00 per a juny i juliol 
   		* 21:00 per a agost i maig
   		* 20:00 per a setembre,octubre,març i abril
   		* 19:00 per a novembre i febrer
   		* 18:00 per a desembre i gener
+  	La funció aceptarà com a paràmetre l'hora en format h:i i si no te paràmetres pendrà l'hora actual.
   		
 	Substitueix el text **Cover** de la capçalera per la salutació.
 	
@@ -62,7 +64,7 @@
  	
   * Crea una funció de nom **valDate()** per a que mostre la data en valencià de la forma: 9 d'octubre de 2020
   		* El mes en minuscula i apostrof si cal
-
+        * La funció acceptarà com a paràmetre en dia en format (Y/m/d) i si no pendrà el dia actual.
 	Substitueix el **peu de la pàgina** per la data
   		
 ## pupils.php  
