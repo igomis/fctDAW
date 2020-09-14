@@ -46,6 +46,6 @@ class Test extends TestCase
     }
 
     public function testPaintLine(){
-        $this->assertEquals("<tr><td>Ignasi</td><td>Home</td><td>Valencià</td>",paintLine(['Ignasi','Home','Valencià']));
+        $this->assertEquals("<tr><td>Ignasi</td><td>Home</td><td>Valencià</td></tr>",paintLine(['Ignasi','Home','Valencià']));
     }
 }
