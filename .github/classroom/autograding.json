@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "testUcParagraph",
+      "setup": "",
+      "run": "./vendor/bin/phpunit ./tests/Test.php --filter testUcParagraph",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testGreetings",
+      "setup": "",
+      "run": "./vendor/bin/phpunit ./tests/Test.php --filter testGreetings",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testValDate",
+      "setup": "",
+      "run": "./vendor/bin/phpunit ./tests/Test.php --filter testValDate",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testPaintLine",
+      "setup": "",
+      "run": "./vendor/bin/phpunit ./tests/Test.php --filter testPaintLine",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

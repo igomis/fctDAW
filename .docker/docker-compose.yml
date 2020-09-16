@@ -4,7 +4,7 @@ services:
   # Nginx Service
   nginx:
     image: nginx:1.19-alpine
-    container_name: ${APP_NAME}-webserver
+    container_name: webserver
     ports:
       - "80:80"
       - "9001:9001"
@@ -18,7 +18,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: ${APP_NAME}-php
+    container_name: php
     restart: unless-stopped
     working_dir: /var/www/sites
     volumes:
