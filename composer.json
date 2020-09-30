@@ -1,6 +1,6 @@
 {
-    "name": "practica1/batoi",
-    "description" : "Practica 1 - Curs Accelerat",
+    "name": "fct-daw/batoi",
+    "description" : "CRUD empreses - PHP",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -17,12 +17,13 @@
             "Tests\\": "tests/"
         }
     },
+    "autoload": {
+        "files": [
+            "helpers/myHelpers.php"
+        ]
+    },
     "scripts": {
-        "test": "phpunit tests",
-        "test1": "phpunit Test --filter testUcParagraph",
-        "test2": "phpunit Test --filter testGreetings",
-        "test3": "phpunit Test --filter testValDate",
-        "test4": "phpunit Test --filter testPaintLine"
+        "test": "phpunit tests"
     },
     "require-dev": {
         "phpunit/phpunit": "^9"

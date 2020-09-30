@@ -1,4 +1,7 @@
 <?php
+use \Whoops\Run;
+use \Whoops\Handler\PrettyPageHandler;
+
 function dd($param)
 {
     var_dump($param);
@@ -7,29 +10,9 @@ function dd($param)
 
 function loadWhoops()
 {
-    $whoops = new \Whoops\Run;
-    $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+    $whoops = new Run;
+    $whoops->pushHandler(new PrettyPageHandler);
     $whoops->register();
     return $whoops;
-}
-
-function ucParagraph(String $text):String
-{
-    return $text;
-}
-
-function greetins():String
-{
-    return '';
-}
-
-function valDate():String
-{
-    return '';
-}
-
-function paintLine(Array $linea):String
-{
-    return '';
 }
 
