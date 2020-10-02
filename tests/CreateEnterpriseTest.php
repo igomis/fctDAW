@@ -10,7 +10,7 @@ class CreateEnterpriseTest extends TestCase
         // get database connection
         $database = new testDatabase();
         $db = $database->getConnection();
-        $database->truncate('enterprises');
+        $db->exec('TRUNCATE TABLE enterprises');
 
 
         // pass connection to objects

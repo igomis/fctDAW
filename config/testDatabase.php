@@ -2,7 +2,7 @@
 class testDatabase{
 
     // specify your own database credentials
-    private $host = "localhost";
+    private $host = "mysql";
     private $db_name = "testFctDAW";
     private $username = "root";
     private $password = "root";

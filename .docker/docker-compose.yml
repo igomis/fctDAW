@@ -37,7 +37,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "root"
     volumes:
-      - ./.basicPHPDocker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf:ro
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf:ro
       - mysqldata:/var/lib/mysql
   # PhpMyAdmin Service
   phpmyadmin:
