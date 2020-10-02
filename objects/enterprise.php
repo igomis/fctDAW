@@ -64,7 +64,7 @@ class Enterprise
 
 
         if($stmt->execute()) return true;
-
+        print_r($stmt->errorInfo());
         return false;
     }
 }

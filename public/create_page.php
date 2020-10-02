@@ -1,8 +1,8 @@
 <?php
 // include database and object files
-include_once '../config/config.php';
-include_once '../config/database.php';
-include_once '../objects/Enterprise.php';
+include_once dirname(__FILE__) .'/../config/config.php';
+include_once dirname(__FILE__) .'/../config/database.php';
+include_once dirname(__FILE__) .'/../objects/Enterprise.php';
 
 
 // get database connection
@@ -43,6 +43,7 @@ if($_POST){
 
     // if unable to create the product, tell the user
     else{
+
         echo "<div class='alert alert-danger'>No he pogut crear l'empresa.</div>";
     }
 }
