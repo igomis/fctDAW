@@ -1,1 +1,1 @@
-docker-compose --project-directory ./.docker -f ./.docker/docker-compose.test.yml up --remove-orphans
+ docker container exec -it php  /var/www/sites/vendor/bin/phpunit tests
