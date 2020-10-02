@@ -5,10 +5,10 @@ CREATE TABLE `enterprises` (
   `adress` varchar(100) NOT NULL,
   `location` varchar(30) NOT NULL,
   `phone` varchar(20) NOT NULL,
-  `contact` varchar(150) NOT NULL,
-  `activity` varchar(100) NOT NULL,
-  `comments` text NOT NULL,
-  `places` tinyint(4) NOT NULL
+  `contact` varchar(150) NULL,
+  `activity` varchar(100) NULL,
+  `comments` text NULL,
+  `places` tinyint(4) default 1
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 ALTER TABLE `enterprises` ADD PRIMARY KEY (`cif`);
