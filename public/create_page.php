@@ -32,6 +32,7 @@ if($_POST){
     $enterprise->location = $_POST['location'];
     $enterprise->email = $_POST['email'];
     $enterprise->phone = $_POST['phone'];
+    $enterprise->contact = $_POST['contact'];
     $enterprise->places = $_POST['places'];
     $enterprise->comments = $_POST['comments'];
 
