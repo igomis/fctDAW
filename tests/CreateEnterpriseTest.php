@@ -1,6 +1,6 @@
 <?php
 include_once dirname(__FILE__) .'/../config/testDatabase.php';
-include_once dirname(__FILE__) .'/../objects/Enterprise.php';
+include_once dirname(__FILE__) .'/../objects/enterprise.php';
 use PHPUnit\Framework\TestCase;
 
 class CreateEnterpriseTest extends TestCase

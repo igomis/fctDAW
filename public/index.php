@@ -50,15 +50,15 @@ if($total_rows>0){
             <td><?= $item->places ?></td>
             <td>
                 <!-- read, edit and delete buttons -->
-                <a href='read_one.php?id={$id}' class='btn btn-primary left-margin'>
+                <a href="read_one.php?cif=<?= $item->cif ?>" class='btn btn-primary left-margin'>
                     <span class='glyphicon glyphicon-list' aria-hidden="true"></span>Mostra
                 </a>
 
-                <a href='update_product.php?id={$id}' class='btn btn-info left-margin'>
+                <a href="update_page.php?cif=<?= $item->cif ?>" class='btn btn-info left-margin'>
                     <span class='glyphicon glyphicon-edit'aria-hidden="true"></span> Edita
                 </a>
 
-                <a delete-id='{$id}' class='btn btn-danger delete-object'>
+                <a delete-id='<?= $item->cif ?>' class='btn btn-danger delete-object'>
                     <span class='glyphicon glyphicon-remove'aria-hidden="true"></span> Esborra
                 </a>
             </td>
