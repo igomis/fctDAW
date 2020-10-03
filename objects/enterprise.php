@@ -67,4 +67,13 @@ class Enterprise
         print_r($stmt->errorInfo());
         return false;
     }
+    function readAll($from_record_num, $records_per_page){
+        $query = "SELECT name,adress,location,activity,places FROM " . $this->table_name . " ORDER BY location,name ASC
+            LIMIT {$from_record_num}, {$records_per_page}";
+        $stmt = $this->conn->prepare( $query );
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
+    }
+
 }
