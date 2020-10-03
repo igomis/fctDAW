@@ -87,6 +87,7 @@ class Enterprise
         $stmt->execute();
 
         $row = $stmt->fetch(PDO::FETCH_OBJ);
+        if (!$row) return false;
 
         $this->name=$row->name;
         $this->activity=$row->activity;
