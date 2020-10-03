@@ -70,7 +70,7 @@ class Enterprise
         return false;
     }
     function readAll($from_record_num, $records_per_page){
-        $query = "SELECT name,adress,location,activity,places FROM " . $this->table_name . " ORDER BY location,name ASC
+        $query = "SELECT cif,name,adress,location,activity,places FROM " . $this->table_name . " ORDER BY location,name ASC
             LIMIT {$from_record_num}, {$records_per_page}";
         $stmt = $this->conn->prepare( $query );
         $stmt->execute();
