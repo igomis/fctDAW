@@ -87,6 +87,7 @@ class Enterprise
         $stmt->execute();
 
         $row = $stmt->fetch(PDO::FETCH_OBJ);
+        if (!$row) return false;
 
         $this->name=$row->name;
         $this->activity=$row->activity;
@@ -97,6 +98,7 @@ class Enterprise
         $this->phone=$row->phone;
         $this->places=$row->places;
         $this->comments=$row->comments;
+        return true;
     }
     /**
      * @return bool
@@ -138,8 +140,23 @@ class Enterprise
 
 
         if ($stmt->execute()) {return true; }
+        return false;
+    }
+    // delete the product
+    function delete()
+    {
+
+        $query = "DELETE FROM " . $this->table_name . " WHERE cif = ?";
+
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(1, $this->cif);
+
+        if ($stmt->execute()) {
+            return true;
+        }
 
         return false;
+
     }
 
 }
