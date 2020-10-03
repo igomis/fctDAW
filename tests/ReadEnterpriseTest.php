@@ -13,6 +13,7 @@ class ReadEnterpriseTest extends TestCase
     const EMAIL = "intranet@cipfpbatoi.es";
     const LOCATION = 'ALCOI';
     const NEWCIF = "23456789Z";
+    const SEARCH = "Unio";
 
 
     public function testReadReturnTrue()
@@ -46,5 +47,17 @@ class ReadEnterpriseTest extends TestCase
         $enterprise->cif = self::NEWCIF;
         $this->assertSame($enterprise->readOne(), false);
     }
+
+    public function testSearchByContext()
+    {
+        // get database connection
+        $database = new testDatabase();
+        $db = $database->getConnection();
+
+        // pass connection to objects
+        $enterprise = new Enterprise($db);
+        $this->assertSame(count($enterprise->search(self::SEARCH,0,10)),1);
+    }
+
 
 }

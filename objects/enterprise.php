@@ -159,4 +159,32 @@ class Enterprise
 
     }
 
+    // read products by search term
+    public function search($search_term, $from_record_num, $records_per_page){
+
+        // select query
+        $query = "SELECT cif,name,adress,location,activity,places FROM  {$this->table_name} WHERE cif LIKE ? 
+            OR name LIKE ? OR adress LIKE ? OR location LIKE ? OR activity LIKE ?
+            ORDER BY location,name ASC LIMIT {$from_record_num}, {$records_per_page}";
+
+        // prepare query statement
+        $stmt = $this->conn->prepare( $query );
+
+        // bind variable values
+        $search_term = "%{$search_term}%";
+
+        $stmt->bindParam(1, $search_term);
+        $stmt->bindParam(2, $search_term);
+        $stmt->bindParam(3, $search_term);
+        $stmt->bindParam(4, $search_term);
+        $stmt->bindParam(5, $search_term);
+        // execute query
+        $stmt->execute();
+
+
+        // return values from database
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
+    }
+
+
 }
