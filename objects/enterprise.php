@@ -34,7 +34,7 @@ class Enterprise
 
         $query = "INSERT INTO " . $this->table_name . " SET
                     cif=:cif, name=:name, activity=:activity, adress=:adress, location=:location ,
-                    email=:email, phone=:phone, places=:places, comments=:comments";
+                    email=:email, phone=:phone, contact=:contact,places=:places, comments=:comments";
 
         $stmt = $this->conn->prepare($query);
 
@@ -46,6 +46,7 @@ class Enterprise
         $this->location=htmlspecialchars(strip_tags($this->location));
         $this->email=htmlspecialchars(strip_tags($this->email));
         $this->phone=htmlspecialchars(strip_tags($this->phone));
+        $this->contact=htmlspecialchars(strip_tags($this->contact));
         $this->places=htmlspecialchars(strip_tags($this->places));
         $this->comments=htmlspecialchars(strip_tags($this->comments));
 
@@ -59,6 +60,7 @@ class Enterprise
         $stmt->bindParam(":location", $this->location);
         $stmt->bindParam(":email", $this->email);
         $stmt->bindParam(":phone", $this->phone);
+        $stmt->bindParam(":contact", $this->contact);
         $stmt->bindParam(":places", $this->places);
         $stmt->bindParam(":comments", $this->comments);
 
