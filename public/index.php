@@ -14,7 +14,7 @@ $enterprise = new Enterprise($db);
 
 // retrieve records here
 $allEnterprises = $enterprise->readAll($from_record_num, $records_per_page);
-$total_rows = count($allEnterprises);
+$total_rows = $enterprise->countAll();
 
 // set page headers
 $page_title = "Índex Empreses";
@@ -28,7 +28,5 @@ include_once "../layouts/layout_read.php";
 // layout_footer.php holds our javascript and closing html tags
 include_once "../layouts/layout_footer.php";
 
-
-include_once "../layouts/layout_footer.php";
 ?>
 

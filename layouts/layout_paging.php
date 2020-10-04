@@ -1,9 +1,9 @@
 <ul class='pagination'>
     <!-- button for first page -->
+
     <?php if($page>1){ ?>
         <li><a href='<?=$page_url?>' title='Ves a la primera pàgina.'>Primera</a></li>
     <?php }
-
     // calculate total pages
     $total_pages = ceil($total_rows / $records_per_page);
 
