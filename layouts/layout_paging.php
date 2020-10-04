@@ -21,7 +21,7 @@
 
             // current page
             if ($x == $page) {
-                echo "<li class='active'><a href=\"#\">$x <span class=\"sr-only\">(current)</span></a></li>";
+                echo "<li class='active'><a href=\"#\">$x -<span class=\"sr-only\">(current)</span></a></li>";
             }
 
             // not current page

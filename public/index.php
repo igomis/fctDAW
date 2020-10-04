@@ -19,7 +19,7 @@ $records_per_page = 10;
 $from_record_num = $records_per_page * ($page-1);
 // retrieve records here
 $allEnterprises = $enterprise->readAll($from_record_num, $records_per_page);
-$total_rows = count($allEnterprises);
+$total_rows = $enterprise->countAll();
 
 // set page headers
 $page_title = "Índex Empreses";

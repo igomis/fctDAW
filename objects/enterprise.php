@@ -69,6 +69,15 @@ class Enterprise
         print_r($stmt->errorInfo());
         return false;
     }
+
+    function countAll(){
+        $query = "SELECT COUNT(*) as total FROM " . $this->table_name ;
+        $stmt = $this->conn->prepare( $query );
+        $stmt->execute();
+
+        return $stmt->fetchAll()[0]['total'];
+    }
+
     function readAll($from_record_num, $records_per_page){
         $query = "SELECT cif,name,adress,location,activity,places FROM " . $this->table_name . " ORDER BY location,name ASC
             LIMIT {$from_record_num}, {$records_per_page}";
