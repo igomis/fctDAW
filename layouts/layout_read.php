@@ -42,15 +42,15 @@ if($total_rows>0){
             <td>
                 <!-- read, edit and delete buttons -->
                 <a href="read_one.php?cif=<?= $item->cif ?>" class='btn btn-primary left-margin'>
-                    <span class='glyphicon glyphicon-list' aria-hidden="true"></span>Mostra
+                    <span class='fas fa-search' aria-hidden="true"></span>
                 </a>
 
                 <a href="update_page.php?cif=<?= $item->cif ?>" class='btn btn-info left-margin'>
-                    <span class='glyphicon glyphicon-edit'aria-hidden="true"></span> Edita
+                    <span class='fas fa-edit' aria-hidden="true"></span>
                 </a>
 
                 <a delete-id='<?= $item->cif ?>' class='btn btn-danger delete-object'>
-                    <span class='glyphicon glyphicon-remove'aria-hidden="true"></span> Esborra
+                    <span class='fas fa-trash' aria-hidden="true"></span>
                 </a>
             </td>
         </tr>
