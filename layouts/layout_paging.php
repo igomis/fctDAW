@@ -2,7 +2,7 @@
     <!-- button for first page -->
 
     <?php if($page>1){ ?>
-        <li><a href='<?=$page_url?>' title='Ves a la primera pàgina.'>Primera</a></li>
+        <li><a href='<?=$page_url?>' title='Ves a la primera pàgina.'>Primera -</a></li>
     <?php }
     // calculate total pages
     $total_pages = ceil($total_rows / $records_per_page);
@@ -21,12 +21,12 @@
 
             // current page
             if ($x == $page) {
-                echo "<li class='active'><a href=\"#\">$x <span class=\"sr-only\">(current)</span></a></li>";
+                echo "<li class='active'><a href=\"#\">$x -<span class=\"sr-only\">(current)</span></a></li>";
             }
 
             // not current page
             else {
-                echo "<li><a href='{$page_url}page=$x'>$x</a></li>";
+                echo "<li><a href='{$page_url}page=$x'>$x -</a></li>";
             }
         }
     }
@@ -34,7 +34,7 @@
     // button for last page
     if($page<$total_pages){
         echo "<li><a href='" .$page_url. "page={$total_pages}' title='La darrera pàgina és {$total_pages}.'>";
-        echo "Darrera";
+        echo "- Darrera";
         echo "</a></li>";
     }
     ?>
