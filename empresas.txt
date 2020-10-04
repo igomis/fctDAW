@@ -1,0 +1,53 @@
+|29215552D|Neenot Online Marketing - Carlos Reig Matut|hi@neenot.com|Avinguda Constitució, 127 1-A|València|666812519|Carlos Reig Matut|Programación Web Y Marketing On-Line|NULL|1
+|B54835889|KLIKAIR TECHNOLOGIES|juanra.domenech@klikair.com|Plaza Emilio Sala, 1|Alcoi|635433682|Juan Ramón Doménech Casanova|INFORMÁTICA (WEB)| |1
+|B54519152|AHEAD DATA S.L.N.E.|mail@aheaddata.com|Alameda Camilo Sesto 74,oficina 18,|ALCOI|622151522|Joan Ferre Ferre|INFORMÁTICA (WEB)|Wordpress i php a pel|1
+|B53698445|DOBLEMENTE S.L.|programacion@doblemente.com|Avda. La Alameda 74|ALCOI|966109696|Eugenio Ruiz De La Cuesta Fernández|INFORMÁTICA|NULL|1
+|B53868048|SIPE-INFORMÁTICA, S.L.|info@sipeinformatica.com|Av. Europa, 4 Bajo|IBI|965550303|Raúl Guerrero Rodríguez|INFORMÁTICA|NULL|1
+|B53186722|MORA Y BIEDMA SOFTWARE|info@mobisoft.es|C/ Rio Duero 11. Urb. Castalla Internacional|CASTALLA|965561728|Jose Francisco Biedma Software|INFORMÁTICA|NULL|1
+|J54689468|PANDA CREATIU SC|hermes@pandacreatiu.com|C/ Santa Llúcia, 3A|ALCOI|679616619|Hermes Vélez Linge|INFORMÁTICA (WEB)|NULL|1
+|G03182870|Aitex|aolcina@aitex.es|Plaça Emili Sala, 1|Alcoi|965542200|Amando Olcina|Institut Tecnològic del Tèxtil|NULL|1
+|B54531272|CADENALIA, S.L.|cesar@iristrace.com|C/ Rafael Alberti, 2, Entl., Local 1|IBI|966845115|Cesar Mariel Albert|INFORMÁTICA|NULL|1
+|B53348454|SOLLUTIA, S.L. |jmarza@sollutia.com|Carrer Vistabella, 22|ALCOI|966526021|Jose Alberto Marzá Soriano|INFORMÁTICA|NULL|1
+|B54394960|DIFUSIÓN COMUNICACIÓN INTEGRAL, S.L.|rmiralles@difusion.org|Caseta Mascarelles,66 Local 2|ALCOI|965548167|Rafa Millares Sabán|INFORMÁTICA|Wordpress|1
+|B54313770|ALQUY SERVEIS INFORMÀTICS, S.L.U.|jvmolto@alquy.com|C/ Ibi, 11, Baix|ALCOI|965337014|Jordi Moltó Mompó|INFORMÁTICA|NULL|1
+|E54583679|PUBLIESCALA, C.B.|fran@publiaescala.com|Calle Luís Braille 13, Entresuelo A.|ALCOI|657123896|Francisco Tomás Gallego Garrigós|INFORMÁTICA|NULL|1
+|B54723796|DEVOPENSOURCE S.L.|oliver.montes@devopensource.com|Avda. Juan Gilalbert, 1 1ª Planta Ofic 3/4|ALCOI|666948588|Iván Oliver Montes Guevara|INFORMÁTICA|NULL|1
+|21687478L|RAÚL ARÁNEGA SEGURA|desarrollo@appyweb.es|C/. Sant Mateu, 18|ALCOI|675956809|Raúl Aránega Segura|INFORMÁTICA|NULL|1
+|B66892936|BIGFINITE BARCELON SL|ana.cimadevilla@bigfinite.com|Carrer de Córsega 301-303, Entresuelo 1|Barcelona|696614341|Ana Cimadevilla|Desenvolupament web|1 hora per a menjar (35hores setmanals)|1
+|B54634555|BICITECH SERVICE CENTER SL.|tecnico@bitech.es|CALLE VISTABELLA, 8 - A |Alcoi|966109328|NULL|BICICLETAS VENTA|NULL|1
+|B46132387|UBESOL, S.L.|silviatormo@ubesol.es|Calle la Costera, 9|ATZANETA|962359002|Silvia Tormo|ADM. Y FINANZAS|L'horari l'ha triat l'alumne|1
+|B42601526|Indexeo|ivan@indexeomarketing.com|Avda Juan Carlos I, 63 Entresuelo Local 7|Ibi|966845175|Iván Torrente|Web|NULL|1
+|B54509757|Informática y Gestión ADLOT S.L.|nando@infolot.es|Carrer la Pau Nº 56,|Muro d'Alcoi|966 295 825|Fernando|web Loterias|NULL|1
+|B54509328|DISTRIBUYEN ECOMMERCE GROUP, S.L|ADMINISTRACION@DOBLEMENTE.COM|AVINGUDA L'ALAMEDA 74 INTERIOR LOCAL 8|ALCOI|966521120|Pau Ferri|ECOMMERCE|NULL|1
+|B41991647|MULTISCAN TECHNOLOGIES, S.L.|emoreno@multiscan.eu|Pol. Ind. Els Algars, C/La Safor, 2|ELS ALGARS|965331831|Elvira Moreno|VISION ARTIFICIAL|NULL|1
+|B03456415|TRANS JUVER SL|grupoexit@exit.es|Cl Pg Industrial Cotes Baixes C 4, 4|Alcoi|965923631|NULL|Transport de mercaderies|NULL|1
+|B54805072|SYNECTIA SOFTWARE|info@synectia.com|Calle Santo Tomás, 2 Planta 3 - Oficina 15|ALCOI|NULL|Lucía|CONSULTORÍA INFORMÁTICA|NULL|2
+|A12345678|Soler Design, comunicación visual|info@solerdesign.es|Glorieta de España, 21-Bajo|Ibi|965553210|NULL|NULL|NULL|1
+|12345678A|COLORBABY S.L.|info@colorbaby.es|Calle Córdoba 15 - Pol. Industrial Alfas I|Ibi|965551158|NULL|Juguetes|NULL|1
+|B54689120|Z-BOMBILLA SPAIN, S.L.|comercial@z-bombilla.com|C/ Alacant 55|ALCOI|966330487|Ivan López Calabuig|ILUMINACIÓN|NULL|1
+|B54727367|LynxView|info@lynxview.es|Edificio Capital / Ctra. Ocaña 39, Esc 1, Piso 3|Alicante|601 425 073|Mila|NULL|NULL|1
+|B54379854|GEA ENTERPRISE CORP., S.L.|servicios@geaenterprise.com| |CASTALLA|NULL|Pedro Gea|INFORMÁTICA|NULL|1
+|B54551023|Pyme UP|raulconsultor@pymeup.com|Calle Azorín 66|San Vicente Raspeig|606625392|NULL|Programacion web|NULL|1
+|B97211643|GESTIWEB INT. DE SOLUCIONES WEB S.L.|pablo@gestiweb.com|C/ La Trama, 5C, 1º, 3ª|ONTINYENT|962916159|Pablo|INFORMÁTICA|NULL|1
+|B98297013|Customerville España|eva@customerville.com|Plaça de l'Ajuntament, 27-4º|València|963288855|Eva Peña|Diseño Enquestas|NULL|1
+|B42621300|ACCESEO PROJECTS SL|mauro@acceseo.com|Av. Juan Gil Albert, 1 – 6º|ALCOI|96 653 19 14|Mauro|INFORMÁTICA|Wordpress i altres|1
+|21671080C|Oscar Sanchís Pedraza|comunicacion@centreestudisnord.com|Fernando El Católico 7 Bajos|Alcoi|644 726 149|Oscar Sanchís Pedraza|NULL|NULL|1
+|A08188567|Transportes EXIT, S.A.|grupoexit@exit.es|Cl Pg Industrial Cotes Baixes C 4, 4|ALCOI|965923631|Jacobo Lledó|Transports|NULL|1
+|B54070818|Import Export Bike S.L|web@unobike.com|C/ Mestre Jose Ribera Montes, 27 Bajo|Alcoi|666065423|Javi Martí|Importació/Exportació peces automoció|NULL|1
+|B97067987|Ingeniería de normalización y organización valenciana|administracion@grupoinnova.org|Calle del Music pare Perez Jorge, 6|Onteniente|962911159|Marta|NULL|NULL|1
+|25424989|Herningsholm Erhvervsskole|toni@herningsholm.dk|Lillelundvej 3|Herning|+45 72134889|NULL|Escola tecnològica|NULL|1
+|B82387770|Everis|Spain.alc.hhrr@everis.com|Avda. Oscar Esplà 37- 2 planta|Alicante|965146920|Recursos humanos|Consultoria i OutSorcing IT|NULL|1
+|B42503193|AUTIB Procesos Insdustriales|administracion@autib.com|Poligono Industrail Los Vasalos, Avda. de la muñeca,77 F6|Onil|865615009|recursos humanos|NULL|NULL|1
+|B54057690|TECTELTIC ONLINE, S.L.|juancarlos@entradasatualcance.com|Avda Juan gilalbert,1|MURO D ALCOI|NULL|Juan Carlos Ruiz|INFORMÁTICA|symfony, angular|2
+|85085140K|Constantí Bernabeu Domenech|constantibernabeu@gmail.com|Joanot Martorell, 14|Castalla|636497947|NULL|NULL|NULL|1
+|B42673020|INTRO SOLUTIONS, S.L.|pedrogea@introsolutions.es|C/JUAN XXIII, 56 BJ|Castalla|627958781|Pedro Gea|Disseny aplicacions|L'alumne far part de les practiques a distància.|1
+|B45532132|EUROPREVEN SERVICIOS DE PREV. DE RIESGOS LABORABLES S.L.|igomez@otp.es|AV. Denia, 78|ALCOI|965542199|Nacho Gómez|SERVICIO DE PREVENCIÓN|NULL|2
+|B54222336|MEDIOS Y PROYECTOS NEIL, S.L.|jesus@mediosyproyectos.com|Santo Tomas nº9|ALCOI|NULL|Jesús Pascual|DISEÑO GRÁFICO|NULL|1
+|B54660980|HAPPY FRIDAY|rafa@happyfriday.es|Avenida Alicante, 70|Cocentaina|622163286|Rafa Linares|Comercio Textil|NULL|1
+|B96715370|TEXTILES VISATEX, S.L.|pedro@visatex.com|Calle del Transport, 45|MURO D ALCOI|965592130|Pedro|TEXTIL|NULL|1
+|B98055445|Soluciones Abiertas, SL|angel@solucionesabiertas.es|Avda. 25 d'abril, 22 5B|Xàtiva|660586792|NULL|Desenvolupament web|NULL|1
+|B02598688|Intacto Digital (Servicios Y Promoción Vinícola Y Turística Pmasm S.L)|administracion@intactodigital.es|Empedrat, 43|ibi|653124183|Jose Antonio Martínez Pérez|Diseño Web|NULL|1
+|B54527039|Solerdesign Comunicación Visual, S.L.|soler@solerdesign.es|Glorieta De España, 21|Ibi|965553210|NULL|NULL|NULL|1
+|B54514708|MB MIBOR INTERNACIONAL SL|mibor@mibor.biz|C/Filà Cides, Núm. 4. Pol. Ind. Sent Benet.|Alcoi|966540023|NULL|FABRICACIÓN DE OTROS PRODUCTOS TEXTILES DE USO TÉCNICO E INDUSTRIAL|NULL|1
+|B53179768|DIAGRAM SOFTWARE S.L.|maria.lucena@diagram.es|Partida Talecó 13|COCENTAINA|675015474|Maria Lucena|INFORMÁTICA|NULL|4
+|B03338498|Ser Sport SL|info@onlytenis.com|Avenida Passeig del Comtat, 71|Cocentaina|653981802|Miguel Valor|Tenda Esports|NULL|1
