@@ -41,8 +41,19 @@
 	* Importació del fitxer d'alumnes des de alumnes.txt
  	* Login d'alumne amb correu electrònic i NIA.
 	* Recordatori de contrasenyan utilitzant correu electronic de l'alumne.
-	* Crear les classes Alumne i AlumneEmpresa amb els mètodes necessaris.
+	* Crear les classes Alumne i AlumneEmpresa amb els mètodes necessaris, al meyns:
+		* Alumne
+			* find($id):Object
+			* update($id,$array):bool
+			* static:selectAll():array Objects
+		* AlumneEmpresa:
+			* find($id):Object
+			* update($id,$array):bool
+			* delete($id):bool
+			* store($array):integer
+			* static selectAlumne($id):Array Object
+			* static selectEmpresa($id):Array Object
 	* Llistat de les seues preferències, amb opció d'esborrar empresa i pujar/baixar d'ordre.
 	* Llistat d'empreses per poder afegir al llistat anterior.
-	* S'hauran de dissenyar tests per a provar els mètodes més importants de les classes creades. 
+	* S'hauran de dissenyar tests per a provar els mètodes de dalt. 
 	
