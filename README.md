@@ -1,4 +1,4 @@
-# repositoriBasic
+# FCTDAW
 
  * Estructura de directoris bàsica
     * config
