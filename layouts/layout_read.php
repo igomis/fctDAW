@@ -11,7 +11,7 @@
 </form>
 
 <div class='right-button-margin'>
-    <a href='create_enterprise.php' class='btn btn-outline-primary float-right'><span class="fas fa-plus"></span> Crear Empresa</a>
+    <a href='create_page.php' class='btn btn-outline-primary float-right'><span class="fas fa-plus"></span> Crear Empresa</a>
 </div>
 
 
