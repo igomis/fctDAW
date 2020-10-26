@@ -55,4 +55,5 @@
 			* static selectEmpresa($id):Array Object
 	* Llistat de les seues preferències, amb opció d'esborrar empresa i pujar/baixar d'ordre.
 	* Llistat d'empreses per poder afegir al llistat anterior.
-	* S'hauran de dissenyar tests per a provar els mètodes de dalt. 	                                        
+	* S'hauran de dissenyar tests per a provar els mètodes de dalt. 
+	
