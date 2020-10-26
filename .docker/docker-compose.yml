@@ -11,7 +11,7 @@ services:
     volumes:
       - ../:/var/www/sites:ro
       - ./nginx/conf.d:/etc/nginx/conf.d
-      - phpmyadmindata:/usr/src/phpmyadmin
+      - phpmyadmindata:/var/www/html
     depends_on:
       - php
       - phpmyadmin
@@ -48,7 +48,7 @@ services:
     environment:
       PMA_HOST: mysql
     volumes:
-      - phpmyadmindata:/usr/src/phpmyadmin
+      - phpmyadmindata:/var/www/html
     depends_on:
       - mysql
 # Volumes
